@@ -5,7 +5,6 @@ import numpy as np
 from transformers import pipeline
 
 name_list = ['microsoft/biogpt', 'google/flan-t5-xxl', 'facebook/galactica-1.3b', 'gpt2']
-
 examples = [['COVID-19 is'],['We describe an 11-year-old previously healthy male who presented with eight days of fever']] 
 
 print(f"Is CUDA available: {torch.cuda.is_available()}")
